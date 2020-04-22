@@ -7,7 +7,7 @@
     "node": "10.15.3"
   },
   "scripts": {
-  "start": "node index.js"
+  "start": "app/index.js"
 },
   "dependencies": {
     "@babel/code-frame": {
