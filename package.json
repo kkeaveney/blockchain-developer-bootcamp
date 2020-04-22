@@ -4,7 +4,8 @@
   "lockfileVersion": 1,
   "requires": true,
   "engines": {
-    "node": "10.15.3"
+    "node": "10.15.3",
+    "npm": "6.10.2"
   },
   "scripts": {
   "start": "src/index.js"
