@@ -147,6 +147,7 @@ export function tokenWithdrawAmountChanged(amount) {
   }
 }
 
+// Buy Order
 export function buyOrderAmountChanged(amount) {
   return {
     type: 'BUY_ORDER_AMOUNT_CHANGED',
@@ -166,7 +167,8 @@ export function buyOrderMaking(price) {
     type: 'BUY_ORDER_MAKING'
   }
 }
-//Generic order
+
+// Generic Order
 export function orderMade(order) {
   return {
     type: 'ORDER_MADE',
@@ -191,7 +193,6 @@ export function sellOrderPriceChanged(price) {
 
 export function sellOrderMaking(price) {
   return {
-    type: 'SELL_ORDER_MAKING',
-    price
+    type: 'SELL_ORDER_MAKING'
   }
 }
