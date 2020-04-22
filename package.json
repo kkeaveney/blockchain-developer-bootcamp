@@ -6,6 +6,9 @@
   "engines": {
     "node": "10.15.3"
   },
+  "scripts": {
+  "start": "node index.js"
+},
   "dependencies": {
     "@babel/code-frame": {
       "version": "7.0.0",
